@@ -1,0 +1,69 @@
+=== Exercício 1 — Verificar Primeiro ===
+Some(10)
+None
+
+=== Exercício 2 — Somar Lista ===
+15
+11
+
+=== Exercício 3 — Busca Binária ===
+Some(2)
+None
+
+=== Exercício 4 — Pares com Soma ===
+1 + 4
+2 + 3
+
+=== Exercício 5 — Imprimir Pares e Pares ===
+1
+2
+3
+(1, 1)
+(1, 2)
+(1, 3)
+(2, 1)
+(2, 2)
+(2, 3)
+(3, 1)
+(3, 2)
+(3, 3)
+
+=== Exercício 6 — Potências de Dois ===
+1
+2
+4
+8
+16
+
+=== Exercício 7 — Fibonacci Recursivo ===
+5
+55
+
+=== Exercício 8 — Ordenação Bolha ===
+[1, 2, 3, 5, 8]
+
+=== Exercício 9 — Produto de Matrizes ===
+[[19, 22], [43, 50]]
+
+=== Exercício 10 — Merge Sort ===
+[1, 2, 3, 5, 8, 9]
+
+C:\Users\Matheus\codigos\atividade-rust> cargo test
+Compiling atividade-rust v0.1.0
+Finished test [unoptimized + debuginfo] target(s) in 1.23s
+Running unittests src\main.rs
+
+running 10 tests
+test ex01::tests::teste ... ok
+test ex02::tests::teste ... ok
+test ex03::tests::teste ... ok
+test ex04::tests::teste ... ok
+test ex05::tests::teste ... ok
+test ex06::tests::teste ... ok
+test ex07::tests::teste ... ok
+test ex08::tests::teste ... ok
+test ex09::tests::teste ... ok
+test ex10::tests::teste ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
